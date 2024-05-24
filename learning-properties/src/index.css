@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
 .student {
     border: 1px solid black;
     border-radius: 8px;
@@ -8,4 +14,12 @@
 .student p {
     font-size: x-large;
     font: Arial, sans-serif;
+}
+
+.welcome-greeting {
+    margin: 10px;
+}
+
+.login-message {
+    margin: 10px;
 }

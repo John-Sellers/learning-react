@@ -1,8 +1,10 @@
 import Student from "./Student"
+import UserGreeting from "./UserGreeting"
 
 function App() {
   return (
     <>
+      <UserGreeting isLoggedIn={true} userName={30} />
       <Student name="John" age={25} student={false} canDrive={true} />
       <Student name="Chris" age={32} student={false} canDrive={true} />
       <Student name="Michael" age={18} student={false} canDrive={true} />
