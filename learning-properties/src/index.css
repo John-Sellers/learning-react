@@ -1,0 +1,11 @@
+.student {
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.student p {
+    font-size: x-large;
+    font: Arial, sans-serif;
+}
