@@ -2,24 +2,34 @@ import React, { useState } from 'react';
 
 function MyComponent() {
 
-    const [name, setName] = useState("Guest");
-    const [age, setAge] = useState(0);
-    const [isEmployed, setIsEmployed] = useState(false);
+    const [count, setCount] = useState(0);
 
-    const updateName = () => { setName("Nico Robin") };
-    const incrementAge = () => { setAge(age + 1) };
-    const toggleEmployedStatus = () => { setIsEmployed(!isEmployed) };
+    function incrementCount() {
+        /* 
+        Takes the pending state to calculate the next state.
+        React puts the updater function in a queue. During
+        the next render, it will call them in the same order
+        */
+
+        setCount(c => c + 1)
+        setCount(c => c + 1)
+        setCount(c => c + 1)
+    };
+
+    function decrementCount() {
+        setCount(c => c - 1)
+    };
+
+    function resetCount() {
+        setCount(0)
+    };
 
     return (
         <div>
-            <p>Name: {name}</p>
-            <button onClick={updateName}>Set Name</button>
-
-            <p>Age: {age}</p>
-            <button onClick={incrementAge}>Increment Age</button>
-
-            <p>Employment Status: {isEmployed ? "Yes" : "No"}</p>
-            <button onClick={toggleEmployedStatus}>Employed?</button>
+            <p>{count}</p>
+            <button onClick={decrementCount}>Decrement Count</button>
+            <button onClick={resetCount}>Reset Count</button>
+            <button onClick={incrementCount}>Increment Count</button>
         </div>
     );
 }
