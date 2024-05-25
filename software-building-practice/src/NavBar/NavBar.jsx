@@ -2,7 +2,7 @@ import styles from "./NavBar.module.css";
 
 function NavBar() {
     return (
-        <div className={styles.NavBar}>
+        <div className={styles.navBar}>
             <div className={styles.logo}>
                 <img src="/cool_logo.png" alt="Very Cool Logo" id={styles.picture} />
             </div>
