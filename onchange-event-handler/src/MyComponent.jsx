@@ -34,8 +34,6 @@ function MyComponent() {
             <p>Name: {name}</p>
             <input type="number" value={quantity} onChange={handleQuantityChange} />
             <p>Quantity: {quantity}</p>
-            <input type="text" value={name} onChange={handleNameChange} />
-            <p>Name: {name}</p>
             <textarea value={comment} placeholder="Please leave a comment..." onChange={handleCommentChange}></textarea>
             <p>Comment: {comment}</p>
             <select value={payment} onChange={handlePaymentChange}>
