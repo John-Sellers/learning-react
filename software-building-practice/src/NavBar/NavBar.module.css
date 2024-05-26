@@ -1,113 +1,182 @@
 * {
+    /* Removes margin from all elements */
     margin: 0;
+    /* Removes padding from all elements */
     padding: 0;
+    /* Sets the box-sizing to border-box, which includes padding and border in the element's total width and height */
     box-sizing: border-box;
 }
 
 .navBar {
+    /* Sets the background color to black using HSL (Hue, Saturation, Lightness) */
     background-color: hsl(0, 0%, 0%);
+    /* Sets the width to 100% of the viewport width */
     width: 100vw;
+    /* Sets the height to 100 pixels */
     height: 100px;
+    /* Uses flexbox layout for child elements */
     display: flex;
+    /* Distributes space between child elements */
     justify-content: space-between;
+    /* Aligns child elements at the flex container's end (bottom in this case) */
     align-items: flex-end;
+    /* Adds padding: 0 pixels on top and bottom, 20 pixels on left and right */
     padding: 0 20px;
 }
 
-#picture {
+.picture {
+    /* Sets the width of the logo image */
     width: 250px;
+    /* Sets the height of the logo image */
     height: 100px;
 }
 
 .tabsContainer {
+    /* Uses flexbox layout for child elements */
     display: flex;
+    /* Centers the child elements horizontally */
+    justify-content: center;
+    /* Allows the tabsContainer to grow and take up available space */
+    flex: 1;
+}
+
+.tabsContainer li {
+    /* Removes the default list-style (e.g., bullets) */
+    list-style: none;
+    /* Adds padding of 11 pixels to the list items */
+    padding: 11px;
 }
 
 .tabs {
+    /* Positions the pseudo-element relative to the tab link */
     position: relative;
+    /* Removes underline from links */
     text-decoration: none;
+    /* Adds horizontal margin of 20 pixels to the sides */
     margin: 0 20px;
+    /* Sets the text color to white */
     color: white;
+    /* Sets the font size to 20 pixels */
     font-size: 20px;
+    /* Adds a smooth transition effect */
     transition: 0.3s ease;
+    /* Adds padding of 10 pixels around the link */
     padding: 10px;
 }
 
 .tabs::after {
+    /* Inserts an empty content after each tab for the underline effect */
     content: "";
+    /* Positions the pseudo-element absolutely within the tab */
     position: absolute;
+    /* Sets the initial width of the underline to 0 */
     width: 0;
+    /* Sets the height of the underline */
     height: 2.5px;
+    /* Positions the underline at the bottom of the tab */
     bottom: 0;
+    /* Positions the underline at the left of the tab */
     left: 0;
+    /* Sets the background color of the underline to white */
     background-color: #ffffff;
+    /* Adds a transition effect for the width change */
     transition: width 0.5s ease;
 }
 
 .tabs:hover {
-    color: #897979;
+    /* Changes text color to black on hover */
+    color: #000000;
+    /* Moves the tab up by 5 pixels on hover */
     transform: translateY(-5px);
+    /* Adds a rainbow gradient background to the tab on hover */
     background-image: linear-gradient(to right, #ff0000, #ff00b3, #ffff00, #00ff00, #0000ff, #8a2be2);
+    /* Expands the background size to 600% for animation effect */
     background-size: 600%;
+    /* Animates the background gradient continuously */
     animation: rainbow 2s linear infinite;
 }
 
 .tabs:hover::after {
+    /* Expands the underline width to 100% on hover */
     width: 100%;
 }
 
 @keyframes rainbow {
     0% {
+        /* Starts the background position at 0% horizontally and 50% vertically */
         background-position: 0% 50%;
     }
 
     100% {
+        /* Ends the background position at 100% horizontally and 50% vertically */
         background-position: 100% 50%;
     }
 }
 
 .userSection {
+    /* Uses flexbox layout for child elements */
     display: flex;
+    /* Adds 15 pixels of space between child elements */
     gap: 15px;
+    /* Positions the element absolutely within the navBar */
     position: absolute;
+    /* Positions the element 0 pixels from the top of the navBar */
     top: 0px;
+    /* Positions the element 0 pixels from the right of the navBar */
     right: 0px;
+    /* Adds 15 pixels of padding inside the element */
     padding: 15px;
 }
 
 .signIn,
 .signUp {
+    /* Sets the text color to white */
     color: white;
+    /* Removes underline from links */
     text-decoration: none;
+    /* Sets the font size to 16 pixels */
     font-size: 16px;
+    /* Adds padding: 8 pixels on top and bottom, 16 pixels on left and right */
     padding: 8px 16px;
+    /* Adds a 2-pixel solid white border */
     border: 2px solid white;
+    /* Rounds the corners with a 20-pixel radius */
     border-radius: 20px;
+    /* Adds a transition effect for background and text color changes */
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .signIn:hover,
 .signUp:hover {
+    /* Changes background color to white on hover */
     background-color: white;
+    /* Changes text color to black on hover */
     color: #000;
 }
 
 .socialMedia {
+    /* Uses flexbox layout for child elements */
     display: flex;
+    /* Adds 15 pixels of space between child elements */
     gap: 15px;
-    right: 0px;
-    bottom: 0px;
+    /* Adds 10 pixels of padding inside the element */
     padding: 10px;
 }
 
 .socialMedia a {
+    /* Sets the icon color to white */
     color: #ffffff;
+    /* Removes underline from links */
     text-decoration: none;
+    /* Sets the font size to 24 pixels for the icons */
     font-size: 24px;
+    /* Adds a transition effect for color and size changes */
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .socialMedia a:hover {
+    /* Changes the icon color to blue on hover */
     color: #007bff;
+    /* Scales the icon size by 1.5 times on hover */
     transform: scale(1.5);
 }
