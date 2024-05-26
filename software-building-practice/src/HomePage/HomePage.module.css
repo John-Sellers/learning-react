@@ -4,94 +4,160 @@
 }
 
 main {
+    /* Semi-transparent black background */
     background-color: rgba(0, 0, 0, 0.90);
 }
 
 .section1 {
+    /* Flexbox layout for the section */
     display: flex;
+    /* Items arranged horizontally */
     flex-direction: row;
+    /* Center vertically */
     align-items: center;
-    gap: 20px;
+    /* Spacing between flex items */
+    /* gap: 20px; */
+    /* Text color */
     color: white;
+    /* Set height of the section */
     height: 600px;
 }
 
 .callToAction {
+    /* Take up remaining space in the row */
     flex: 1;
+    /* Padding inside the div */
     padding: 20px;
+    /* Flexbox layout for the content */
     display: flex;
+    /* Items arranged vertically */
     flex-direction: column;
+    /* Center content vertically */
     justify-content: center;
+    /* Center content horizontally */
     align-items: center;
+    /* Set height to 100% of parent container */
     height: 100%;
 }
 
 .image {
+    /* Take up remaining space in the row */
     flex: 1;
+    /* Positioned relative to its normal position */
     position: relative;
+    /* Hide overflowing content */
     overflow: hidden;
+    /* Set height to 100% of parent container */
     height: 100%;
 }
 
 .image img {
+    /* Maximum width of the image */
     max-width: 100%;
+    /* Set height to 100% of parent container */
     height: 100%;
+    /* Scale and crop the image */
     object-fit: cover;
 }
 
+
 .firstHeader {
+    /* Font size of the heading */
     font-size: 50px;
+    /* Bottom margin */
     margin-bottom: 20px;
+    /* Center align text */
     text-align: center;
 }
 
 .secondHeader {
+    /* Font size of the heading */
     font-size: 16px;
+    /* Bottom margin */
     margin-bottom: 20px;
+    /* Center align text */
     text-align: center;
 }
 
+
 .getStartedButton,
 .requestDemoButton {
+    /* Margin around the buttons */
     margin: 20px;
+    /* Padding inside the buttons */
     padding: 10px 20px;
+    /* Font size of the buttons */
     font-size: 16px;
+    /* Cursor style */
     cursor: pointer;
 }
 
 .getStartedButton {
+    /* Background color */
     background-color: #007bff;
+    /* Text color */
     color: white;
+    /* No border */
     border: none;
+    /* Rounded corners */
     border-radius: 5px;
 }
 
 .requestDemoButton {
+    /* Transparent background */
     background-color: transparent;
+    /* Text color */
     color: white;
+    /* Border with white color */
     border: 1px solid white;
+    /* Rounded corners */
     border-radius: 5px;
 }
 
 .section2 {
+    /* Flexbox layout for the section */
     display: flex;
+    /* Set height of the section */
     height: 600px;
 }
 
-.whatWeDo {
-    padding: 20px;
-}
-
-.whatWeDoHeading {
-    color: rgb(255, 255, 255);
-    font-size: 35px;
-    padding: 20px;
+.whatWeDoImage {
+    /* Take up equal space in the flex container */
     flex: 1;
 }
 
-.missionStatement {
-    color: white;
-    font-size: 20px;
+.imageLogo {
+    height: 100%;
+    width: 100%;
+}
+
+.whatWeDoContent {
+    /* Padding inside the div */
     padding: 20px;
+    /* Take up equal space in the flex container */
+    flex: 1;
+    /* Flexbox layout for the content */
+    display: flex;
+    /* Items arranged vertically */
+    flex-direction: column;
+}
+
+.whatWeDoHeading {
+    /* Text color */
+    color: rgb(255, 255, 255);
+    /* Font size of the heading */
+    font-size: 35px;
+    /* Padding inside the div */
+    padding: 20px;
+}
+
+.missionStatement {
+    /* Text color */
+    color: white;
+    /* Font size of the paragraphs */
+    font-size: 20px;
+    /* Padding inside the div */
+    padding: 20px;
+    /* Take up equal space in the flex container */
     flex: 1;
 }
