@@ -18,7 +18,8 @@ main {
     /* Text color */
     color: white;
     /* Set height of the section */
-    height: 600px;
+    height: 700px;
+    padding: 40px;
 }
 
 .callToAction {
@@ -116,7 +117,10 @@ main {
     /* Flexbox layout for the section */
     display: flex;
     /* Set height of the section */
-    height: 600px;
+    height: 700px;
+    padding: 60px;
+
+    background-color: rgb(13, 0, 255);
 }
 
 .whatWeDoImage {
@@ -146,7 +150,7 @@ main {
     /* Text color */
     color: rgb(255, 255, 255);
     /* Font size of the heading */
-    font-size: 35px;
+    font-size: 40px;
     /* Padding inside the div */
     padding: 20px;
 }

@@ -31,7 +31,7 @@ function HomePage() {
                     </div>
                     <div className={styles.whatWeDoContent}>
                         <h1 className={styles.whatWeDoHeading}>
-                            What we do
+                            What We Do
                         </h1>
                         <p className={styles.missionStatement}>
                             At *insert company name here* we make it our mission to give you your time
@@ -56,6 +56,9 @@ function HomePage() {
                         </p>
                     </div>
                 </section >
+                <section>
+
+                </section>
             </main>
         </>
     )
