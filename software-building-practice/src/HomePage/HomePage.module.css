@@ -15,8 +15,6 @@ main {
     flex-direction: row;
     /* Center vertically */
     align-items: center;
-    /* Spacing between flex items */
-    /* gap: 20px; */
     /* Text color */
     color: white;
     /* Set height of the section */
@@ -24,8 +22,8 @@ main {
 }
 
 .callToAction {
-    /* Take up remaining space in the row */
-    flex: 1;
+    /* Fills 50% of parent element */
+    width: 50%;
     /* Padding inside the div */
     padding: 20px;
     /* Flexbox layout for the content */
@@ -41,8 +39,8 @@ main {
 }
 
 .image {
-    /* Take up remaining space in the row */
-    flex: 1;
+    /* Fills 50% of parent element */
+    width: 50%;
     /* Positioned relative to its normal position */
     position: relative;
     /* Hide overflowing content */
@@ -63,7 +61,7 @@ main {
 
 .firstHeader {
     /* Font size of the heading */
-    font-size: 50px;
+    font-size: 70px;
     /* Bottom margin */
     margin-bottom: 20px;
     /* Center align text */
@@ -72,7 +70,7 @@ main {
 
 .secondHeader {
     /* Font size of the heading */
-    font-size: 16px;
+    font-size: 25px;
     /* Bottom margin */
     margin-bottom: 20px;
     /* Center align text */
@@ -122,11 +120,13 @@ main {
 }
 
 .whatWeDoImage {
-    /* Take up equal space in the flex container */
-    flex: 1;
+    /* Fills 50% of parent element */
+    width: 50%;
 }
 
+
 .imageLogo {
+    /* Ensuring that the image take up all the space in the parent div */
     height: 100%;
     width: 100%;
 }
@@ -134,8 +134,8 @@ main {
 .whatWeDoContent {
     /* Padding inside the div */
     padding: 20px;
-    /* Take up equal space in the flex container */
-    flex: 1;
+    /* Fills 50% of parent element */
+    width: 50%;
     /* Flexbox layout for the content */
     display: flex;
     /* Items arranged vertically */
@@ -158,6 +158,4 @@ main {
     font-size: 20px;
     /* Padding inside the div */
     padding: 20px;
-    /* Take up equal space in the flex container */
-    flex: 1;
 }
