@@ -19,7 +19,7 @@ main {
     color: white;
     /* Set height of the section */
     height: 700px;
-    padding: 40px;
+    padding: 60px;
 }
 
 .callToAction {
@@ -119,8 +119,6 @@ main {
     /* Set height of the section */
     height: 700px;
     padding: 60px;
-
-    background-color: rgb(13, 0, 255);
 }
 
 .whatWeDoImage {
@@ -162,4 +160,17 @@ main {
     font-size: 20px;
     /* Padding inside the div */
     padding: 20px;
+}
+
+.section3 {
+    /* Flexbox layout for the section */
+    display: flex;
+    /* Set height of the section */
+    height: 700px;
+    padding: 60px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: row;
 }

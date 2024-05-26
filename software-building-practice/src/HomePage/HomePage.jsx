@@ -8,7 +8,7 @@ function HomePage() {
                 <section className={styles.section1}>
                     <div className={styles.callToAction}>
                         <h1 className={styles.firstHeader}>
-                            Generate Internal Documentation For Your Company In No Time
+                            Generate internal documentation for your company in no time
                         </h1>
                         <h2 className={styles.secondHeader}>
                             No longer will it take days to create documentation, cut down on internal
@@ -55,9 +55,34 @@ function HomePage() {
                             porro?
                         </p>
                     </div>
-                </section >
-                <section>
-
+                </section>
+                <section className={styles.section3}>
+                    <div className={styles.benfits}>
+                        <div>
+                            <img src="" alt="" className={styles.benefitImage} />
+                            <p className={styles.benefitDescription}>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <div>
+                            <img src="" alt="" className={styles.benefitImage} />
+                            <p className={styles.benefitDescription}>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <div>
+                            <img src="" alt="" className={styles.benefitImage} />
+                            <p className={styles.benefitDescription}>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <div>
+                            <img src="" alt="" className={styles.benefitImage} />
+                            <p className={styles.benefitDescription}>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
                 </section>
             </main>
         </>

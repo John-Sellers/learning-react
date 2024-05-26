@@ -7,11 +7,11 @@ function NavBar() {
                 <img src="/cool_logo.png" alt="Very Cool Logo" className={styles.picture} />
             </div>
             <ul className={styles.tabsContainer}>
-                <li><a href="/home" className={styles.tabs}>Home</a></li>
-                <li><a href="/products" className={styles.tabs}>Products</a></li>
-                <li><a href="/how-it-works" className={styles.tabs}>How It Works</a></li>
-                <li><a href="/about-us" className={styles.tabs}>About Us</a></li>
-                <li><a href="/pricing" className={styles.tabs}>Pricing</a></li>
+                <li><a href="/" className={styles.tabs}>Home</a></li>
+                <li><a href="#" className={styles.tabs}>Products</a></li>
+                <li><a href="#" className={styles.tabs}>How It Works</a></li>
+                <li><a href="#" className={styles.tabs}>About Us</a></li>
+                <li><a href="#" className={styles.tabs}>Pricing</a></li>
             </ul>
             <div className={styles.userSection}>
                 <a href="/sign-in" className={styles.signIn}>Sign In</a>
