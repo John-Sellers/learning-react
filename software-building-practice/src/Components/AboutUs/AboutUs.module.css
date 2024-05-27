@@ -1,0 +1,59 @@
+/* src/components/AboutUs.module.css */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.aboutUsContainer {
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    height: 700px;
+    padding: 60px;
+}
+
+.content {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.image {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.imageLogo {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.firstHeader {
+    font-size: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.subHeader {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.missionStatement {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
