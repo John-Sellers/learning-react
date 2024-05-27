@@ -2,30 +2,12 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; // Import Link for navigation
 import styles from './SignIn.module.css'; // Import CSS for styling
 
-const SignIn = () => {
-    const [formData, setFormData] = useState({
-        email: '',
-        password: '',
-    });
-
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData((prevData) => ({
-            ...prevData,
-            [name]: value,
-        }));
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        // Add your sign in logic here
-        console.log(formData); // For demonstration, log the form data
-    };
+function SignIn() {
 
     return (
         <div className={styles.signInContainer}>
             <h2>Sign In</h2>
-            <form onSubmit={handleSubmit}>
+            <form>
                 <input
                     type="email"
                     name="email"
