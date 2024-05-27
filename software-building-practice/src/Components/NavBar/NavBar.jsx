@@ -19,10 +19,10 @@ function NavBar() {
                 <Link to="/sign-up" className={styles.signUp}>Sign Up</Link>
             </div>
             <div className={styles.socialMedia}>
-                <a href="https://www.facebook.com" className="fa fa-facebook" aria-label="Facebook"></a>
-                <a href="https://www.instagram.com" className="fa fa-instagram" aria-label="Instagram"></a>
-                <a href="https://www.twitter.com" className="fa fa-twitter" aria-label="Twitter"></a>
-                <a href="https://www.linkedin.com" className="fa fa-linkedin" aria-label="LinkedIn"></a>
+                <a href="https://www.facebook.com" className="fa fa-facebook" aria-label="Facebook" target="_blank"></a>
+                <a href="https://www.instagram.com" className="fa fa-instagram" aria-label="Instagram" target="_blank"></a>
+                <a href="https://www.twitter.com" className="fa fa-twitter" aria-label="Twitter" target="_blank"></a>
+                <a href="https://www.linkedin.com" className="fa fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
             </div>
         </nav>
     );
