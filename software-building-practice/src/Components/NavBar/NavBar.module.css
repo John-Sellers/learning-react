@@ -26,7 +26,7 @@
 
 .picture {
     /* Sets the width of the logo image */
-    width: 250px;
+    width: 150px;
     /* Sets the height of the logo image */
     height: 100px;
 }
@@ -38,13 +38,15 @@
     justify-content: center;
     /* Allows the tabsContainer to grow and take up available space */
     flex: 1;
+    margin-bottom: 0;
 }
 
 .tabsContainer li {
     /* Removes the default list-style (e.g., bullets) */
     list-style: none;
     /* Adds padding of 11 pixels to the list items */
-    padding: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
 }
 
 .tabs {
