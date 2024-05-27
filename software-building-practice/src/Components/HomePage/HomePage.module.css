@@ -165,12 +165,56 @@ main {
 .section3 {
     /* Flexbox layout for the section */
     display: flex;
+    flex-direction: column;
     /* Set height of the section */
     height: 700px;
     padding: 60px;
 }
 
+.benefitsContainer {
+    /* Setting 'display' to 'flex' sets the children elements on the main (x) axis */
+    display: flex;
+    /*
+        By default the main axis is horizontal (row) but we could switch it vertical
+        by setting 'flex-direction' to 'column'
+     */
+    flex-direction: row;
+    /* Aligns the children elements on the main axis (in this case, x-axis) */
+    justify-content: space-around;
+    /* For aligning items on the cross (in this case, y-axis) we use align-items */
+    align-items: center;
+    /* Allows for the children elements to wrap when no space is available default is 'no wrap'*/
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.benefitsHeaderContainer {
+    padding: 10px;
+    margin: 20px;
+}
+
+.benefitsHeader {
+    color: white;
+    font-size: 40px;
+    padding: 60px;
+}
+
 .benefits {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.benefitsImage {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+.benefitsDescription {
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }

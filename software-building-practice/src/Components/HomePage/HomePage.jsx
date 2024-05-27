@@ -57,28 +57,31 @@ function HomePage() {
                     </div>
                 </section>
                 <section className={styles.section3}>
-                    <div className={styles.benfits}>
-                        <div>
-                            <img src="" alt="" className={styles.benefitImage} />
-                            <p className={styles.benefitDescription}>
+                    <div className={styles.benefitsHeaderContainer}>
+                        <h1 className={styles.benefitsHeader}>Benefits of Using Our Product</h1>
+                    </div>
+                    <div className={styles.benefitsContainer}>
+                        <div className={styles.benefits}>
+                            <img src="/efficient.jpeg" alt="Improve efficiency" className={styles.benefitsImage} />
+                            <p className={styles.benefitsDescription}>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
                         </div>
-                        <div>
-                            <img src="" alt="" className={styles.benefitImage} />
-                            <p className={styles.benefitDescription}>
+                        <div className={styles.benefits}>
+                            <img src="/better_service.jpeg" alt="Improve customer service" className={styles.benefitsImage} />
+                            <p className={styles.benefitsDescription}>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
                         </div>
-                        <div>
-                            <img src="" alt="" className={styles.benefitImage} />
-                            <p className={styles.benefitDescription}>
+                        <div className={styles.benefits}>
+                            <img src="/fast.jpeg" alt="Very fast that it saves time" className={styles.benefitsImage} />
+                            <p className={styles.benefitsDescription}>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
                         </div>
-                        <div>
-                            <img src="" alt="" className={styles.benefitImage} />
-                            <p className={styles.benefitDescription}>
+                        <div className={styles.benefits}>
+                            <img src="/ml.jpeg" alt="Cutting edge machine learning" className={styles.benefitsImage} />
+                            <p className={styles.benefitsDescription}>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
                         </div>
