@@ -5,7 +5,7 @@
 
 main {
     /* Semi-transparent black background */
-    background-color: rgba(0, 0, 0, 0.90);
+    background-color: rgba(0, 0, 0, 0.10);
 }
 
 .section1 {

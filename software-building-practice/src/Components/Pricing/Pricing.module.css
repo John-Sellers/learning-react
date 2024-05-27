@@ -1,0 +1,103 @@
+/* src/components/Pricing.module.css */
+.pricingContainer {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pricingContainer h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pricingCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricingCard {
+    flex: 1 1 calc(33.333% - 40px);
+    /* Three cards per row with 20px gap on each side */
+    max-width: calc(33.333% - 40px);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.pricingCard h3 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.pricingCard p {
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 992px) {
+    .pricingCard {
+        flex: 1 1 calc(50% - 40px);
+        /* Two cards per row */
+        max-width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 768px) {
+    .pricingCard {
+        flex: 1 1 calc(100% - 40px);
+        /* One card per row */
+        max-width: calc(100% - 40px);
+    }
+}
+
+@media (max-width: 576px) {
+    .pricingContainer {
+        padding: 10px;
+    }
+
+    .pricingCard {
+        padding: 15px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
