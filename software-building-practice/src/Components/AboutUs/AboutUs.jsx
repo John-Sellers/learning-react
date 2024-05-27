@@ -14,19 +14,19 @@ function AboutUs() {
                     </p>
                 </div>
                 <div className={styles.image}>
-                    <img src="path_to_your_image.jpg" alt="About Us Illustration" className={styles.imageLogo} />
+                    <img src="vite.svg" alt="About Us Illustration" className={styles.imageLogo} />
                 </div>
             </section>
 
             <section className={styles.section}>
+                <div className={styles.image}>
+                    <img src="vite.svg" alt="Vision Illustration" className={styles.imageLogo} />
+                </div>
                 <div className={styles.content}>
                     <h2 className={styles.subHeader}>Our Vision</h2>
                     <p className={styles.missionStatement}>
                         We envision a future where businesses are empowered with seamless and intelligent documentation solutions, allowing them to focus on innovation and growth. Our vision is to be the leading provider of AI-driven documentation services, setting new standards in the industry.
                     </p>
-                </div>
-                <div className={styles.image}>
-                    <img src="path_to_your_image.jpg" alt="Vision Illustration" className={styles.imageLogo} />
                 </div>
             </section>
 
@@ -38,7 +38,7 @@ function AboutUs() {
                     </p>
                 </div>
                 <div className={styles.image}>
-                    <img src="path_to_your_image.jpg" alt="Team Illustration" className={styles.imageLogo} />
+                    <img src="vite.svg" alt="Team Illustration" className={styles.imageLogo} />
                 </div>
             </section>
         </main>
