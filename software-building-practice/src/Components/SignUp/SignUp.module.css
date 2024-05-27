@@ -1,0 +1,66 @@
+/* src/components/SignUp.module.css */
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.signUpContainer {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.signUpContainer h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.signUpContainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signUpContainer input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.signUpContainer button {
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.signUpContainer button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for "Already have an account" section */
+.signInLink {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.signInLink p {
+    font-size: 14px;
+    color: white;
+}
+
+.signInLink a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signInLink a:hover {
+    text-decoration: underline;
+}
