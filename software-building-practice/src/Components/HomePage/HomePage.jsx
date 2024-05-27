@@ -27,7 +27,7 @@ function HomePage() {
                 </section>
                 <section className={styles.section2}>
                     <div className={styles.whatWeDoImage}>
-                        <img src="/cool_logo.png" alt="Very Cool Logo" className={styles.imageLogo} />
+                        <img src="/vite.svg" alt="Very Cool Logo" className={styles.imageLogo} />
                     </div>
                     <div className={styles.whatWeDoContent}>
                         <h1 className={styles.whatWeDoHeading}>

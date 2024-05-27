@@ -5,7 +5,7 @@ function NavBar() {
     return (
         <nav className={styles.navBar}>
             <div className={styles.logo}>
-                <img src="/cool_logo.png" alt="Very Cool Logo" className={styles.picture} />
+                <img src="/vite.svg" alt="Very Cool Logo" className={styles.picture} />
             </div>
             <ul className={styles.tabsContainer}>
                 <li><Link to="/" className={styles.tabs}>Home</Link></li>
