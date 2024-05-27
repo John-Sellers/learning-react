@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Pricing.module.css'; // Import CSS for styling
 
 function Pricing() {
+
+    const handleClick = (e) => e.target.textContent = "Got Started"
+
+
     return (
         <div className={styles.pricingContainer}>
             <h2>Choose a Plan</h2>
@@ -15,7 +19,7 @@ function Pricing() {
                         <li>10 Projects</li>
                         <li>Email Support</li>
                     </ul>
-                    <button>Get Started</button>
+                    <button onClick={handleClick}>Get Started</button>
                 </div>
                 <div className={styles.pricingCard}>
                     <h3>Pro Plan</h3>
@@ -26,7 +30,7 @@ function Pricing() {
                         <li>Unlimited Projects</li>
                         <li>Priority Support</li>
                     </ul>
-                    <button>Get Started</button>
+                    <button onClick={handleClick}>Get Started</button>
                 </div>
                 <div className={styles.pricingCard}>
                     <h3>Enterprise Plan</h3>
@@ -37,7 +41,7 @@ function Pricing() {
                         <li>Unlimited Projects</li>
                         <li>24/7 Support</li>
                     </ul>
-                    <button>Contact Us</button>
+                    <button onClick={handleClick}>Contact Us</button>
                 </div>
             </div>
         </div>
