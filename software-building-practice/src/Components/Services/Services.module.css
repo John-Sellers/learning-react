@@ -1,0 +1,40 @@
+/* src/components/Services.module.css */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 60px;
+}
+
+.callToAction,
+.whatWeDoContent {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstHeader {
+    font-size: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.whatWeDoHeading {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.missionStatement {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}

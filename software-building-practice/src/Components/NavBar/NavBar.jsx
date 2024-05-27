@@ -9,9 +9,7 @@ function NavBar() {
             </div>
             <ul className={styles.tabsContainer}>
                 <li><Link to="/" className={styles.tabs}>Home</Link></li>
-                <li><Link to="/services" className={styles.tabs}>Services</Link></li>
-                <li><Link to="/how-it-works" className={styles.tabs}>How It Works</Link></li>
-                <li><Link to="about-us" className={styles.tabs}>About Us</Link></li>
+                <li><Link to="/services" className={styles.tabs}>Services</Link></li>                <li><Link to="about-us" className={styles.tabs}>About Us</Link></li>
                 <li><Link to="pricing" className={styles.tabs}>Pricing</Link></li>
             </ul>
             <div className={styles.userSection}>
