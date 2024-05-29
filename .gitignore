@@ -25,3 +25,5 @@ dist-ssr
 
 # images
 *.jpg
+
+node_modules
