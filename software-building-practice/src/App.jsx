@@ -6,6 +6,7 @@ import SignIn from './Components/SignIn/SignIn';
 import Pricing from './Components/Pricing/Pricing';
 import Services from './Components/Services/Services';
 import AboutUs from './Components/AboutUs/AboutUs';
+import { StickyFooter } from './Components/StickyFooter/StickyFooter';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/services' element={<Services />} />
         <Route path='/about-us' element={<AboutUs />} />
       </Routes>
+      <StickyFooter />
     </Router>
   );
 }

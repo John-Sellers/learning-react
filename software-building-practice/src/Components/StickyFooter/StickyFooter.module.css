@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.StickyFooterContainer {
+    background-color: rgb(222, 0, 222);
+    position: fixed;
+    width: 100%;
+    height: 25px;
+    bottom: 0px;
+}
+
+.StickyFooterContent {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
